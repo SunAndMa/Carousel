@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BB08EB5221C01BA001865C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB08EB4221C01BA001865C5 /* AppDelegate.m */; };
+		6BB08EB8221C01BA001865C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB08EB7221C01BA001865C5 /* ViewController.m */; };
+		6BB08EBB221C01BA001865C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BB08EB9221C01BA001865C5 /* Main.storyboard */; };
+		6BB08EBD221C01BB001865C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BB08EBC221C01BB001865C5 /* Assets.xcassets */; };
+		6BB08EC0221C01BB001865C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BB08EBE221C01BB001865C5 /* LaunchScreen.storyboard */; };
+		6BB08EC3221C01BB001865C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB08EC2221C01BB001865C5 /* main.m */; };
+		6BB08ECD221C01BB001865C5 /* SJTTextCarouselTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB08ECC221C01BB001865C5 /* SJTTextCarouselTests.m */; };
+		6BB08ED8221C01BC001865C5 /* SJTTextCarouselUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB08ED7221C01BC001865C5 /* SJTTextCarouselUITests.m */; };
+		6BB08EEC221C01EB001865C5 /* SJTTextCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB08EE8221C01EA001865C5 /* SJTTextCarousel.m */; };
+		6BB08EED221C01EB001865C5 /* SJTTextInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB08EEA221C01EA001865C5 /* SJTTextInfoView.m */; };
+		6BB08EEE221C01EB001865C5 /* SJTDataSourceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB08EEB221C01EA001865C5 /* SJTDataSourceModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6BB08EC9221C01BB001865C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BB08EA8221C01BA001865C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BB08EAF221C01BA001865C5;
+			remoteInfo = SJTTextCarousel;
+		};
+		6BB08ED4221C01BB001865C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BB08EA8221C01BA001865C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BB08EAF221C01BA001865C5;
+			remoteInfo = SJTTextCarousel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6BB08EB0221C01BA001865C5 /* SJTTextCarousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SJTTextCarousel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BB08EB3221C01BA001865C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6BB08EB4221C01BA001865C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6BB08EB6221C01BA001865C5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6BB08EB7221C01BA001865C5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6BB08EBA221C01BA001865C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BB08EBC221C01BB001865C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BB08EBF221C01BB001865C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6BB08EC1221C01BB001865C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BB08EC2221C01BB001865C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6BB08EC8221C01BB001865C5 /* SJTTextCarouselTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SJTTextCarouselTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BB08ECC221C01BB001865C5 /* SJTTextCarouselTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJTTextCarouselTests.m; sourceTree = "<group>"; };
+		6BB08ECE221C01BB001865C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BB08ED3221C01BB001865C5 /* SJTTextCarouselUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SJTTextCarouselUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BB08ED7221C01BC001865C5 /* SJTTextCarouselUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJTTextCarouselUITests.m; sourceTree = "<group>"; };
+		6BB08ED9221C01BC001865C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BB08EE6221C01EA001865C5 /* SJTTextCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJTTextCarousel.h; sourceTree = "<group>"; };
+		6BB08EE7221C01EA001865C5 /* SJTDataSourceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJTDataSourceModel.h; sourceTree = "<group>"; };
+		6BB08EE8221C01EA001865C5 /* SJTTextCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJTTextCarousel.m; sourceTree = "<group>"; };
+		6BB08EE9221C01EA001865C5 /* SJTTextInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJTTextInfoView.h; sourceTree = "<group>"; };
+		6BB08EEA221C01EA001865C5 /* SJTTextInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJTTextInfoView.m; sourceTree = "<group>"; };
+		6BB08EEB221C01EA001865C5 /* SJTDataSourceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJTDataSourceModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BB08EAD221C01BA001865C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BB08EC5221C01BB001865C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BB08ED0221C01BB001865C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BB08EA7221C01BA001865C5 = {
+			isa = PBXGroup;
+			children = (
+				6BB08EB2221C01BA001865C5 /* SJTTextCarousel */,
+				6BB08ECB221C01BB001865C5 /* SJTTextCarouselTests */,
+				6BB08ED6221C01BC001865C5 /* SJTTextCarouselUITests */,
+				6BB08EB1221C01BA001865C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BB08EB1221C01BA001865C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BB08EB0221C01BA001865C5 /* SJTTextCarousel.app */,
+				6BB08EC8221C01BB001865C5 /* SJTTextCarouselTests.xctest */,
+				6BB08ED3221C01BB001865C5 /* SJTTextCarouselUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BB08EB2221C01BA001865C5 /* SJTTextCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				6BB08EE5221C01D8001865C5 /* Carousel */,
+				6BB08EB3221C01BA001865C5 /* AppDelegate.h */,
+				6BB08EB4221C01BA001865C5 /* AppDelegate.m */,
+				6BB08EB6221C01BA001865C5 /* ViewController.h */,
+				6BB08EB7221C01BA001865C5 /* ViewController.m */,
+				6BB08EB9221C01BA001865C5 /* Main.storyboard */,
+				6BB08EBC221C01BB001865C5 /* Assets.xcassets */,
+				6BB08EBE221C01BB001865C5 /* LaunchScreen.storyboard */,
+				6BB08EC1221C01BB001865C5 /* Info.plist */,
+				6BB08EC2221C01BB001865C5 /* main.m */,
+			);
+			path = SJTTextCarousel;
+			sourceTree = "<group>";
+		};
+		6BB08ECB221C01BB001865C5 /* SJTTextCarouselTests */ = {
+			isa = PBXGroup;
+			children = (
+				6BB08ECC221C01BB001865C5 /* SJTTextCarouselTests.m */,
+				6BB08ECE221C01BB001865C5 /* Info.plist */,
+			);
+			path = SJTTextCarouselTests;
+			sourceTree = "<group>";
+		};
+		6BB08ED6221C01BC001865C5 /* SJTTextCarouselUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6BB08ED7221C01BC001865C5 /* SJTTextCarouselUITests.m */,
+				6BB08ED9221C01BC001865C5 /* Info.plist */,
+			);
+			path = SJTTextCarouselUITests;
+			sourceTree = "<group>";
+		};
+		6BB08EE5221C01D8001865C5 /* Carousel */ = {
+			isa = PBXGroup;
+			children = (
+				6BB08EE7221C01EA001865C5 /* SJTDataSourceModel.h */,
+				6BB08EEB221C01EA001865C5 /* SJTDataSourceModel.m */,
+				6BB08EE6221C01EA001865C5 /* SJTTextCarousel.h */,
+				6BB08EE8221C01EA001865C5 /* SJTTextCarousel.m */,
+				6BB08EE9221C01EA001865C5 /* SJTTextInfoView.h */,
+				6BB08EEA221C01EA001865C5 /* SJTTextInfoView.m */,
+			);
+			path = Carousel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BB08EAF221C01BA001865C5 /* SJTTextCarousel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BB08EDC221C01BC001865C5 /* Build configuration list for PBXNativeTarget "SJTTextCarousel" */;
+			buildPhases = (
+				6BB08EAC221C01BA001865C5 /* Sources */,
+				6BB08EAD221C01BA001865C5 /* Frameworks */,
+				6BB08EAE221C01BA001865C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SJTTextCarousel;
+			productName = SJTTextCarousel;
+			productReference = 6BB08EB0221C01BA001865C5 /* SJTTextCarousel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6BB08EC7221C01BB001865C5 /* SJTTextCarouselTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BB08EDF221C01BC001865C5 /* Build configuration list for PBXNativeTarget "SJTTextCarouselTests" */;
+			buildPhases = (
+				6BB08EC4221C01BB001865C5 /* Sources */,
+				6BB08EC5221C01BB001865C5 /* Frameworks */,
+				6BB08EC6221C01BB001865C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BB08ECA221C01BB001865C5 /* PBXTargetDependency */,
+			);
+			name = SJTTextCarouselTests;
+			productName = SJTTextCarouselTests;
+			productReference = 6BB08EC8221C01BB001865C5 /* SJTTextCarouselTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6BB08ED2221C01BB001865C5 /* SJTTextCarouselUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BB08EE2221C01BC001865C5 /* Build configuration list for PBXNativeTarget "SJTTextCarouselUITests" */;
+			buildPhases = (
+				6BB08ECF221C01BB001865C5 /* Sources */,
+				6BB08ED0221C01BB001865C5 /* Frameworks */,
+				6BB08ED1221C01BB001865C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BB08ED5221C01BB001865C5 /* PBXTargetDependency */,
+			);
+			name = SJTTextCarouselUITests;
+			productName = SJTTextCarouselUITests;
+			productReference = 6BB08ED3221C01BB001865C5 /* SJTTextCarouselUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BB08EA8221C01BA001865C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Sun;
+				TargetAttributes = {
+					6BB08EAF221C01BA001865C5 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					6BB08EC7221C01BB001865C5 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 6BB08EAF221C01BA001865C5;
+					};
+					6BB08ED2221C01BB001865C5 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 6BB08EAF221C01BA001865C5;
+					};
+				};
+			};
+			buildConfigurationList = 6BB08EAB221C01BA001865C5 /* Build configuration list for PBXProject "SJTTextCarousel" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BB08EA7221C01BA001865C5;
+			productRefGroup = 6BB08EB1221C01BA001865C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BB08EAF221C01BA001865C5 /* SJTTextCarousel */,
+				6BB08EC7221C01BB001865C5 /* SJTTextCarouselTests */,
+				6BB08ED2221C01BB001865C5 /* SJTTextCarouselUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BB08EAE221C01BA001865C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BB08EC0221C01BB001865C5 /* LaunchScreen.storyboard in Resources */,
+				6BB08EBD221C01BB001865C5 /* Assets.xcassets in Resources */,
+				6BB08EBB221C01BA001865C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BB08EC6221C01BB001865C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BB08ED1221C01BB001865C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BB08EAC221C01BA001865C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BB08EED221C01EB001865C5 /* SJTTextInfoView.m in Sources */,
+				6BB08EEC221C01EB001865C5 /* SJTTextCarousel.m in Sources */,
+				6BB08EB8221C01BA001865C5 /* ViewController.m in Sources */,
+				6BB08EC3221C01BB001865C5 /* main.m in Sources */,
+				6BB08EEE221C01EB001865C5 /* SJTDataSourceModel.m in Sources */,
+				6BB08EB5221C01BA001865C5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BB08EC4221C01BB001865C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BB08ECD221C01BB001865C5 /* SJTTextCarouselTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BB08ECF221C01BB001865C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BB08ED8221C01BC001865C5 /* SJTTextCarouselUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BB08ECA221C01BB001865C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BB08EAF221C01BA001865C5 /* SJTTextCarousel */;
+			targetProxy = 6BB08EC9221C01BB001865C5 /* PBXContainerItemProxy */;
+		};
+		6BB08ED5221C01BB001865C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BB08EAF221C01BA001865C5 /* SJTTextCarousel */;
+			targetProxy = 6BB08ED4221C01BB001865C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6BB08EB9221C01BA001865C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BB08EBA221C01BA001865C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6BB08EBE221C01BB001865C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BB08EBF221C01BB001865C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BB08EDA221C01BC001865C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6BB08EDB221C01BC001865C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BB08EDD221C01BC001865C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SJTTextCarousel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SJTTextCarousel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6BB08EDE221C01BC001865C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SJTTextCarousel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SJTTextCarousel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6BB08EE0221C01BC001865C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SJTTextCarouselTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SJTTextCarouselTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SJTTextCarousel.app/SJTTextCarousel";
+			};
+			name = Debug;
+		};
+		6BB08EE1221C01BC001865C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SJTTextCarouselTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SJTTextCarouselTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SJTTextCarousel.app/SJTTextCarousel";
+			};
+			name = Release;
+		};
+		6BB08EE3221C01BC001865C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SJTTextCarouselUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SJTTextCarouselUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SJTTextCarousel;
+			};
+			name = Debug;
+		};
+		6BB08EE4221C01BC001865C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SJTTextCarouselUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SJTTextCarouselUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SJTTextCarousel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BB08EAB221C01BA001865C5 /* Build configuration list for PBXProject "SJTTextCarousel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BB08EDA221C01BC001865C5 /* Debug */,
+				6BB08EDB221C01BC001865C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BB08EDC221C01BC001865C5 /* Build configuration list for PBXNativeTarget "SJTTextCarousel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BB08EDD221C01BC001865C5 /* Debug */,
+				6BB08EDE221C01BC001865C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BB08EDF221C01BC001865C5 /* Build configuration list for PBXNativeTarget "SJTTextCarouselTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BB08EE0221C01BC001865C5 /* Debug */,
+				6BB08EE1221C01BC001865C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BB08EE2221C01BC001865C5 /* Build configuration list for PBXNativeTarget "SJTTextCarouselUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BB08EE3221C01BC001865C5 /* Debug */,
+				6BB08EE4221C01BC001865C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BB08EA8221C01BA001865C5 /* Project object */;
+}
