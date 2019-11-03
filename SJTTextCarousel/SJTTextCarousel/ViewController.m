@@ -42,6 +42,13 @@
     view.hiddenTextInfoView.delegate = self;
     view.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:view];
+    
+    
+    
+    
+    
+    
+    
 }
 
 - (void)handleTopEventWithURLString:(NSString *)URLString {
