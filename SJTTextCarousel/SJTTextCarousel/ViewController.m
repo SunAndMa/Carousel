@@ -42,13 +42,6 @@
     view.hiddenTextInfoView.delegate = self;
     view.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:view];
-    
-    
-    
-    
-    
-    
-    
 }
 
 - (void)handleTopEventWithURLString:(NSString *)URLString {
@@ -61,6 +54,9 @@
 
 - (void)getBottomDataSourceModel:(SJTDataSourceModel *)bottomDataSourceModel {
     NSLog(@"第二个 %@ %@ %@", bottomDataSourceModel.type, bottomDataSourceModel.title, bottomDataSourceModel.URLString);
+    
+    
+    
 }
 
 - (void)handleBottomEventWithURLString:(NSString *)URLString {
